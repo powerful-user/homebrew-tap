@@ -1,16 +1,16 @@
 # homebrew-tap
 
-Homebrew formulae for service-dept tools.
+Homebrew formulae for powerful-user tools.
 
 ## Install
 
 ```bash
-brew install service-dept/tap/op-img
+brew install powerful-user/tap/op-img
 ```
 
 | Formula | Description |
 |---|---|
-| [`op-img`](Formula/op-img.rb) | Composable image manipulation CLI ([source](https://github.com/service-dept/op-img)) |
+| [`op-img`](Formula/op-img.rb) | Composable image manipulation CLI ([source](https://github.com/powerful-user/op-img)) |
 
 ## Updating a formula
 

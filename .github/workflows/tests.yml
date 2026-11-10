@@ -25,13 +25,13 @@ jobs:
       HOMEBREW_NO_ANALYTICS: "1"
       HOMEBREW_NO_AUTO_UPDATE: "1"
     steps:
-      # In a tap repository this also links the checkout as service-dept/tap.
+      # In a tap repository this also links the checkout as powerful-user/tap.
       - uses: Homebrew/actions/setup-homebrew@e99025eb970cfa124b8284a35463d87426917478 # 2026.09.28.1
       - name: Check formula style
-        run: brew style service-dept/tap
+        run: brew style powerful-user/tap
       - name: Install op-img from source
-        run: brew install --build-from-source service-dept/tap/op-img
+        run: brew install --build-from-source powerful-user/tap/op-img
       - name: Audit formula
-        run: brew audit --strict service-dept/tap/op-img
+        run: brew audit --strict powerful-user/tap/op-img
       - name: Test op-img
-        run: brew test service-dept/tap/op-img
+        run: brew test powerful-user/tap/op-img
